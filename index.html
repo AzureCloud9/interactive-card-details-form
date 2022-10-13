@@ -6,7 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Interactive card details form</title>
+  <title>Interactive card details form</title>
   <link rel="stylesheet" href="./resource/style.css">
 
   
@@ -29,35 +29,49 @@
       <h1 id="cNumber" class="cNumber" >0000 0000 0000 0000</h1>
       <div class="nameAndexpiry">
       <h1 id="cName" class="cName">Jane Appleseed</h1>
-      <h1 class="cExpiry">00/00</h1>
+      <h1 class="cExpiry"><span id="span1">00</span>/<span id="span2">00</span></h1>
       </div>
     </div>
   </section>
 
   <section class="details">
     <form>
-    <div class="naNum">
+    <div id="naNum" class="naNum">
     <label for="cfName">Cardholder Name</label>
-    <input type="text" id="cfName" name="cfName"  required placeholder="e.g. Jane Appleseed">
+    <p id="errorP1">Must write name down.</p>
+    <input type="text" id="cfName" name="cfName"   placeholder="e.g. Jane Appleseed">
     <label for="cfNumber">Card Number</label>
-    <input type="text" id="cfNumber" name="cfNumber" required placeholder="e.g. 1234 5678 9123 0000">
+    <p id="errorP2">Must write Number down.</p>
+    <input type="number" id="cfNumber" name="cfNumber"  placeholder="e.g. 1234 5678 9123 0000" max="19">
     </div>
 
-    <div class="dates">
+    <div id="dates" class="dates">
         <div class="div1">
         <label for="cfEXP">Expire</label>
-        <input type="number" id="cfEXP" name="cfEXP" required placeholder="MM">
+        <input type="text" id="cfEXP" name="cfEXP"  placeholder="MM" maxlength="2">
+        <p id="errorP3">cant be blank.</p>
       </div>
       <div class="div1">
         <label for="cfMM">(MM/YY)</label>
-        <input type="text" id="cfMM" name="cfMM" required  placeholder="YY">
+        <input type="text" id="cfMM" name="cfMM"   placeholder="YY" maxlength="2">
+        <p id="errorP4">cant be blank.</p>
+
       </div>
       <div class="div1">
         <label for="cfCVC">CVC</label>
-        <input type="number" id="cfCVC" name="cfCVC" required placeholder="e.g. 123">
+        <input type="text" id="cfCVC" name="cfCVC"  placeholder="e.g. 123" maxlength="3">
+        <p id="errorP5">cant be blank.</p>
       </div>
     </div>
-      <input id='btn' type="button" value="button">
+
+    <div id="ThankYou">
+      <svg id='checkMark' width="80" height="80" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="40" fill="url(#a)"/><path d="M28 39.92 36.08 48l16-16" stroke="#fff" stroke-width="3"/><defs><linearGradient id="a" x1="-23.014" y1="11.507" x2="0" y2="91.507" gradientUnits="userSpaceOnUse"><stop stop-color="#6348FE"/><stop offset="1" stop-color="#610595"/></linearGradient></defs></svg>
+      <h1 class=tyTitle>Thank you!</h1>
+      <p class="tyPara">We've added your card details</p>
+    </div>
+      <div id="btn">
+        <h1 >Confirm</h1>
+      </div>
       </form>
     
   </section>

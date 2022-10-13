@@ -142,7 +142,7 @@
 }
 
 .details {
-    height: 560px;
+    height: 580px;
 }
 
 .naNum {
@@ -180,8 +180,6 @@ label {
     border-radius: 8px;
     margin-bottom: 20px;
 
-    
-
 }
 
 input {
@@ -202,9 +200,6 @@ input::placeholder {
     letter-spacing: 0px;
         
 }
-
-
-
 
 #cfEXP, #cfMM {
     height: 45px;
@@ -244,11 +239,104 @@ input::placeholder {
     font-weight: 500;
     line-height: 23px;
     letter-spacing: 0px;
-    text-align: left;
     display: flex;
     justify-content: center;
     margin-top: 28px;
+    align-items: center;
     cursor: pointer;
     border: #21092F 1px solid;
     border-radius: 10px;
+}
+
+#errorP1 {
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: red;
+    display: none;
+
+}
+
+#errorP2 {
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: red;
+    display: none;
+
+}
+
+#errorP3 {
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: red;
+    display: none;
+
+}
+
+#errorP4 {
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: red;
+    display: none;
+
+}
+
+#errorP5 {
+    font-family: Space Grotesk;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: red;
+    display: none;
+}
+
+#ThankYou {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -48px;
+}
+
+#checkMark {
+    margin-bottom: 35px;
+}
+
+.tyTitle {
+    font-family: Space Grotesk;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 3.422222137451172px;
+    text-align: center;
+    margin-bottom: 16px;
+
+}
+
+.tyPara {
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #8F8694;
+    margin-bottom: 48px;
 }
