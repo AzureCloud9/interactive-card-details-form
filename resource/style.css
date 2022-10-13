@@ -171,7 +171,7 @@ label {
 
 #cfName, #cfNumber {
     height: 45px;
-    width: 327px;
+    width: 308px;
     border: 1px solid #DFDEE0;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -196,9 +196,7 @@ input::placeholder {
     font-weight: 500;
     line-height: 23px;
     letter-spacing: 0px;
-    text-align: left;
-    padding-left: 16px;
-    
+        
 }
 
 
@@ -206,14 +204,14 @@ input::placeholder {
 
 #cfEXP, #cfMM {
     height: 45px;
-    width: 72px;
+    width: 50px;
     border-radius: 8px;
     border: 1px solid #DFDEE0;
 }
 
 #cfCVC {
     height: 45px;
-    width: 164px;
+    width: 152px;
     border-radius: 8px;
     border-radius: 8px;
     border: 1px solid #DFDEE0;
@@ -247,6 +245,4 @@ input::placeholder {
     justify-content: center;
     margin-top: 28px;
     cursor: pointer;
-
-
 }
