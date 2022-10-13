@@ -142,7 +142,7 @@
 }
 
 .details {
-    height: 620px;
+    height: 525px;
 }
 
 
@@ -245,4 +245,6 @@ input::placeholder {
     justify-content: center;
     margin-top: 28px;
     cursor: pointer;
+    border: #21092F 1px solid;
+    border-radius: 10px;
 }
