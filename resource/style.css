@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  
+  }
+
+
+/* Variables */
+:root{
+    --primary: #21092F;
+    --secondary: white;
+
+}
+
+/* Reset */
+
+/* Base Styles */
+
+/* Fonts  */
+
+/* Mobile style */
+
+/* large tablets and laptops */
+@media screen and (min-width: 960px) {
+    body {
+        background-color: black;
+    }
+
+}
+/* desktop styles */
+
+@media screen and (min-width: 1200px) {
+
+}
+
+.creditFront {
+    background-image: url(./images/bg-card-front.png);
+    height: 156.2080535888672px;
+    width: 285px;
+    border-radius: 10px;
+    color: var(--secondary);
+    position: absolute;
+    margin-left: 17px;
+    margin-top: 124.6px;
+}
+
+.circles {
+    display: flex;
+    flex: row;
+    align-items: center;
+    margin-bottom: 37px;
+}
+
+.c1 {
+    height: 30px;
+    width: 30.18633460998535px;
+    background-color: white;
+    border-radius: 50px;
+    margin-right: 10.23px;
+    margin-left: 19px;
+    margin-top: 17.6px;
+}
+
+.c2 {
+    height: 13.5px;
+    width: 13.583850860595703px;
+    border-radius: 50px;
+    border: 2px white solid;
+    margin-top: 17.6px;
+
+}
+
+.cNumber {
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 2.200000047683716px;
+    text-align: left;
+    margin-bottom: 17px;
+    margin-left: 19px;
+}
+
+.nameAndexpiry {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 19px;
+}
+
+.cName {
+    font-family: Space Grotesk;
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 11px;
+    letter-spacing: 1.2857142686843872px;
+    text-align: left;
+    margin-right: 124.11px;
+
+}
+
+.cExpiry {
+    font-family: Space Grotesk;
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 11px;
+    letter-spacing: 1.2857142686843872px;
+    text-align: right;
+
+}
+
+
+.creditBack {
+    background-image: url(./images/bg-card-back.png);
+    height: 157px;
+    width: 286px;
+    border-radius: 6px;
+    color: white;
+    position: absolute;
+    margin-left: 73px;
+    margin-top: 32px;
+}
+
+.bNumber {
+    margin-left: 237px;
+    padding-top: 114px;
+    font-family: Space Grotesk;
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 11px;
+    letter-spacing: 1.2857142686843872px;
+}
+
+.bgMain {
+    background-image: url(./images/bg-main-mobile.png);
+    background-repeat:no-repeat;
+    background-size: 100vw;
+    height: 240px;
+    position: relative;
+}
+
+.details {
+    height: 620px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 91px;
+    margin-left: 24px;
+}
+
+.dates {
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    font-family: Space Grotesk;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 2px;
+    color: #21092F;
+    margin-bottom: 9px;
+}
+
+
+#cfName, #cfNumber {
+    height: 45px;
+    width: 327px;
+    border: 1px solid #DFDEE0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+    
+
+}
+
+input {
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-left: 16px;
+}
+
+input::placeholder {
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-left: 16px;
+    
+}
+
+
+
+
+#cfEXP, #cfMM {
+    height: 45px;
+    width: 72px;
+    border-radius: 8px;
+    border: 1px solid #DFDEE0;
+}
+
+#cfCVC {
+    height: 45px;
+    width: 164px;
+    border-radius: 8px;
+    border-radius: 8px;
+    border: 1px solid #DFDEE0;
+    
+}
+#cfCVC:focus {
+    border: 1px solid #DFDEE0;
+
+}
+
+.div1 {
+    width: 72px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6px;
+    
+}
+
+#btn {
+    height: 53px;
+    width: 327px;
+    background-color: #21092F;
+    color: white;
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+    cursor: pointer;
+
+
+}
