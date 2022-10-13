@@ -145,6 +145,10 @@
     height: 560px;
 }
 
+.naNum {
+    display: flex;
+    flex-direction: column;
+}
 
 form {
     display: flex;
