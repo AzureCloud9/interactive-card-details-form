@@ -18,17 +18,16 @@ const error3 = document.getElementById('errorP3')
 const error4 = document.getElementById('errorP4')
 const error5 = document.getElementById('errorP5')
 const thankYou = document.getElementById('ThankYou')
-
-
-
-
 const button = document.getElementById('btn');
+
+
 
 
 button.addEventListener('click', e => {
     errors()
     fixedErrors()
     noErrorRun()
+    button.innerHTML = 'Continue'
     
 
 })
