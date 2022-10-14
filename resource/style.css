@@ -3,7 +3,8 @@
 * {
   margin: 0;
   padding: 0;
-  
+  font-family: Space Grotesk;
+
   }
 
 
@@ -59,7 +60,6 @@
 }
 
 .cNumber {
-    font-family: Space Grotesk;
     font-size: 18px;
     font-weight: 500;
     line-height: 23px;
@@ -77,7 +77,6 @@
 }
 
 .cName {
-    font-family: Space Grotesk;
     font-size: 9px;
     font-weight: 500;
     line-height: 11px;
@@ -88,7 +87,6 @@
 }
 
 .cExpiry {
-    font-family: Space Grotesk;
     font-size: 9px;
     font-weight: 500;
     line-height: 11px;
@@ -112,7 +110,6 @@
 .bNumber {
     margin-left: 237px;
     padding-top: 114px;
-    font-family: Space Grotesk;
     font-size: 9px;
     font-weight: 500;
     line-height: 11px;
@@ -149,7 +146,6 @@ form {
 }
 
 label {
-    font-family: Space Grotesk;
     font-size: 12px;
     font-weight: 500;
     line-height: 15px;
@@ -169,7 +165,6 @@ label {
 }
 
 input {
-    font-family: Space Grotesk;
     font-size: 18px;
     font-weight: 500;
     line-height: 23px;
@@ -179,7 +174,6 @@ input {
 }
 
 input::placeholder {
-    font-family: Space Grotesk;
     font-size: 18px;
     font-weight: 500;
     line-height: 23px;
@@ -220,7 +214,6 @@ input::placeholder {
     width: 327px;
     background-color: #21092F;
     color: white;
-    font-family: Space Grotesk;
     font-size: 18px;
     font-weight: 500;
     line-height: 23px;
@@ -235,7 +228,6 @@ input::placeholder {
 }
 
 #errorP1 {
-    font-family: Space Grotesk;
     font-size: 10px;
     font-weight: 500;
     line-height: 15px;
@@ -247,7 +239,6 @@ input::placeholder {
 }
 
 #errorP2 {
-    font-family: Space Grotesk;
     font-size: 10px;
     font-weight: 500;
     line-height: 15px;
@@ -259,7 +250,6 @@ input::placeholder {
 }
 
 #errorP3 {
-    font-family: Space Grotesk;
     font-size: 10px;
     font-weight: 500;
     line-height: 15px;
@@ -271,7 +261,6 @@ input::placeholder {
 }
 
 #errorP4 {
-    font-family: Space Grotesk;
     font-size: 10px;
     font-weight: 500;
     line-height: 15px;
@@ -283,7 +272,6 @@ input::placeholder {
 }
 
 #errorP5 {
-    font-family: Space Grotesk;
     font-size: 10px;
     font-weight: 500;
     line-height: 15px;
@@ -306,7 +294,6 @@ input::placeholder {
 }
 
 .tyTitle {
-    font-family: Space Grotesk;
     font-size: 28px;
     font-weight: 500;
     line-height: 36px;
@@ -317,7 +304,6 @@ input::placeholder {
 }
 
 .tyPara {
-    font-family: Space Grotesk;
     font-size: 18px;
     font-weight: 500;
     line-height: 23px;
@@ -365,7 +351,6 @@ input::placeholder {
     }
 
     .bNumber {
-        font-family: Space Grotesk;
         font-size: 14px;
         font-weight: 500;
         line-height: 18px;
@@ -385,17 +370,14 @@ input::placeholder {
     }
 
     .cNumber {
-        font-family: Space Grotesk;
         font-size: 28px;
         font-weight: 500;
         line-height: 36px;
         letter-spacing: 3.422222137451172px;
-        text-align: left;
 
    }
 
     .cName {
-        font-family: Space Grotesk;
         font-size: 14px;
         font-weight: 500;
         line-height: 18px;
@@ -404,7 +386,6 @@ input::placeholder {
    }
 
    .cExpiry {
-        font-family: Space Grotesk;
         font-size: 14px;
         font-weight: 500;
         line-height: 18px;
@@ -422,7 +403,6 @@ input::placeholder {
    }
 
    label {
-    font-family: Space Grotesk;
     font-size: 12px;
     font-weight: 500;
     line-height: 15px;
@@ -437,7 +417,6 @@ input::placeholder {
    } 
 
    #errorP1, {
-    font-family: Space Grotesk;
     font-size: 12px;
     font-weight: 500;
     line-height: 15px;
@@ -486,7 +465,6 @@ input::placeholder {
     }
 
     .bNumber {
-        font-family: Space Grotesk;
         font-size: 14px;
         font-weight: 500;
         line-height: 18px;
@@ -506,7 +484,6 @@ input::placeholder {
     }
 
     .cNumber {
-        font-family: Space Grotesk;
         font-size: 28px;
         font-weight: 500;
         line-height: 36px;
@@ -516,7 +493,6 @@ input::placeholder {
    }
 
     .cName {
-        font-family: Space Grotesk;
         font-size: 14px;
         font-weight: 500;
         line-height: 18px;
@@ -525,7 +501,6 @@ input::placeholder {
    }
 
    .cExpiry {
-        font-family: Space Grotesk;
         font-size: 14px;
         font-weight: 500;
         line-height: 18px;
@@ -543,7 +518,6 @@ input::placeholder {
    }
 
    label {
-    font-family: Space Grotesk;
     font-size: 12px;
     font-weight: 500;
     line-height: 15px;
@@ -558,7 +532,6 @@ input::placeholder {
    } 
 
    #errorP1, {
-    font-family: Space Grotesk;
     font-size: 12px;
     font-weight: 500;
     line-height: 15px;
