@@ -9,3 +9,5 @@ Receive error messages when the form is submitted if: any input field is empty
 View the optimal layout depending on their device's screen size( Not Tablet responsive)
 
 See hover, active, and focus states for interactive elements on the page
+
+*First time making a responsive website, that can be used with different types of laptops and a phone.*
