@@ -21,20 +21,6 @@
 /* Fonts  */
 
 /* Mobile style */
-
-/* large tablets and laptops */
-@media screen and (min-width: 960px) {
-    body {
-        background-color: black;
-    }
-
-}
-/* desktop styles */
-
-@media screen and (min-width: 1200px) {
-
-}
-
 .creditFront {
     background-image: url(./images/bg-card-front.png);
     height: 156.2080535888672px;
@@ -340,3 +326,246 @@ input::placeholder {
     color: #8F8694;
     margin-bottom: 48px;
 }
+
+/* large tablets and laptops */
+@media screen and (min-width: 960px) {
+    .bgMain {
+        background-image: url(./images/bg-main-desktop.png);
+        height: 100vh;
+
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        height: 100vh;
+    }
+
+    .creditFront {
+        height: 213px;
+        width: 403px;
+        margin-left: 41px;
+        margin-top: 46px;
+    }
+
+    .creditBack {
+        height: 213px;
+        width: 403px;
+        margin-top: 295px;
+        margin-left: 65px;
+
+
+    }
+
+    .details {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bNumber {
+        font-family: Space Grotesk;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 2px;
+        margin-left: 337px;
+        padding-top: 114px;
+    }
+    
+    .c1 {
+        height: 47px;
+        width: 46.956520080566406px;
+    }
+
+    .c2 {
+        height: 21.149999618530273px;
+        width: 21.130434036254883px;
+    }
+
+    .cNumber {
+        font-family: Space Grotesk;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 3.422222137451172px;
+        text-align: left;
+
+   }
+
+    .cName {
+        font-family: Space Grotesk;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 2px;
+        margin-right: 195px;
+   }
+
+   .cExpiry {
+        font-family: Space Grotesk;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 2px;
+        
+
+   }
+
+   .circles {
+    margin-bottom: 50px;
+   }
+
+   .cNumber {
+    margin-bottom: 25.5px;
+   }
+
+   label {
+    font-family: Space Grotesk;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 2px;
+
+   }
+
+   .cfName, .cfNumber {
+    height: 45px;
+    width: 381px;
+    margin-bottom: 26px;
+   } 
+
+   #errorP1, {
+    font-family: Space Grotesk;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0px;
+
+
+   }
+
+}
+/* desktop styles */
+
+@media screen and (min-width: 1200px) {
+    .bgMain {
+        background-image: url(./images/bg-main-desktop.png);
+        height: 100vh;
+
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        height: 100vh;
+    }
+
+    .creditFront {
+        height: 245px;
+        width: 447px;
+        margin-left: 164px;
+        margin-top: 107px;
+    }
+
+    .creditBack {
+        height: 245px;
+        width: 447px;
+        margin-top: 409px;
+        margin-left: 258px;
+
+
+    }
+
+    .details {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bNumber {
+        font-family: Space Grotesk;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 2px;
+        margin-left: 337px;
+        padding-top: 114px;
+    }
+    
+    .c1 {
+        height: 47px;
+        width: 46.956520080566406px;
+    }
+
+    .c2 {
+        height: 21.149999618530273px;
+        width: 21.130434036254883px;
+    }
+
+    .cNumber {
+        font-family: Space Grotesk;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 3.422222137451172px;
+        text-align: left;
+
+   }
+
+    .cName {
+        font-family: Space Grotesk;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 2px;
+        margin-right: 195px;
+   }
+
+   .cExpiry {
+        font-family: Space Grotesk;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 2px;
+        
+
+   }
+
+   .circles {
+    margin-bottom: 50px;
+   }
+
+   .cNumber {
+    margin-bottom: 25.5px;
+   }
+
+   label {
+    font-family: Space Grotesk;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 2px;
+
+   }
+
+   .cfName, .cfNumber {
+    height: 45px;
+    width: 381px;
+    margin-bottom: 26px;
+   } 
+
+   #errorP1, {
+    font-family: Space Grotesk;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0px;
+
+
+   }
+
+}
+
